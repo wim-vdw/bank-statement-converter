@@ -1,1 +1,1 @@
-# Account statement converter
+# Bank statement converter
