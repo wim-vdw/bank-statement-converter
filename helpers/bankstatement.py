@@ -7,3 +7,7 @@ class BankStatement:
         self.amount = amount
         self.currency = currency
         self.detail = None
+
+    @property
+    def detail_in_text(self):
+        return '\n'.join(self.detail)
