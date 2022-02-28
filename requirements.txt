@@ -1,2 +1,4 @@
+et-xmlfile==1.1.0
+openpyxl==3.0.9
 PyPDF3==1.0.6
-tqdm==4.62.3
+tqdm==4.63.0
