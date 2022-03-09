@@ -1,3 +1,6 @@
+from collections.abc import Iterable
+
+
 class BankStatement:
     def __init__(self, number, date, description, value_date, amount, currency='EUR'):
         self.number = number
@@ -10,4 +13,7 @@ class BankStatement:
 
     @property
     def detail_in_text(self):
-        return '\n'.join(self.detail)
+        if isinstance(self.detail, Iterable):
+            return '\n'.join(self.detail)
+        else:
+            return self.detail

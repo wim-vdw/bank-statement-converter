@@ -4,7 +4,7 @@ from helpers.excelconverter import ExcelConverter
 
 INPUT_FILE_ARGENTA = '/Users/wim/Documents/Boechout/Documenten voor notaris/Uitgaven sinds 01-04-2019/Argenta/Argenta-2022.pdf'
 INPUT_FILE_BNP = '/Users/wim/Documents/Boechout/Documenten voor notaris/Uitgaven sinds 01-04-2019/BNP/2019/BE97230000284249-EX-2019-4.pdf'
-TARGET_FILE = '/Users/wim/Downloads/test.xlsx'
+TARGET_FILE = '/Users/wim/Downloads/Argenta-2022.xlsx'
 
 if __name__ == '__main__':
     argenta = ArgentaConverter(INPUT_FILE_ARGENTA, 1)
