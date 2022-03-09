@@ -11,7 +11,6 @@ class ExcelConverter:
     def create_file(self):
         new_sheet = self.workbook.active
         counter = 1
-        new_sheet[f'A{counter}'].value = 10
         for statement in self.data:
             new_sheet[f'A{counter}'].value = statement.number
             new_sheet[f'B{counter}'].value = statement.date
